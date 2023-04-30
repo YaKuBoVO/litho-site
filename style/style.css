@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto&display=swap');
+
+
 *,
 *::before,
 *::after{
@@ -7,6 +10,142 @@
 }
 
 body {
-   background-color: #ccc;
+   background-color: #23262DFF;
+   font-family: 'Poppins', sans-serif;
+}
+
+.container {
+   width: 1050px;
+   margin: 0 auto;
+   padding-top: 30px;
+}
+
+h1, h2, h3, h4 {
+   font-family: 'Poppins', sans-serif;
+   color: #fff;
+}
+p {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   color: #828282;
+}
+ul li {
+  list-style: none;
+}
+a {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   color: #828282;
+}
+a {
+  text-decoration: none;
+}
+/* header */
+.navbar-logo {
+   width: 111px;
+   height: 36px;
+}
+
+.navbar-info {
+   column-gap: 20px;
    
+}
+.navbar-info i {
+   font-size: 25px;
+   color: #fff;
+}
+.navbar-info a {
+   font-size: 14px;
+}
+
+/* Hero */
+
+.hero-content {
+   position: relative;
+   height: 450px;
+   position: relative;
+   background-image: url("../imgs/home.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   box-sizing: border-box;
+   /*transform: translate()*/
+}
+.hero-info {
+   column-gap: 19px;
+   position: absolute;
+   top: 30%;
+   left: 20%;
+}
+.hero-info h1 {
+   font-size: 52px;
+   font-weight: 700;
+}
+.hero-info .span-yellow {
+   width: 100px;
+   height: 150px;
+   font-size: 88px;
+   background-color: yellow;
+   opacity: .6;
+}
+.hero-info a {
+   font-family: 'Poppins', sans-serif;
+   text-transform: uppercase;
+   font-size: 15px;
+   font-weight: 500;
+   line-height: 22px;
+   color: #fff;
+   border-bottom: 1px solid #fff;
+}
+.icons {
+   display: inline-block;
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   font-size: 34px;
+   color: #fff;
+   text-align: center;
+}
+.color-wehyt {
+   width: 87px;
+   height: 87px;
+   padding-top: 20px;
+   background-color: #34373EFF;
+   margin-bottom: 2px;
+}
+.color-black {
+   width: 87px;
+   height: 87px;
+   padding-top: 20px;
+   background-color: #23262DFF;
+   margin-bottom: 2px;
+}
+
+.fexid {
+   position: fixed;
+   right: 0;
+   bottom: 80px;  
+   width: 120px;
+}
+.column-gap {
+   column-gap: 8px;
+}
+a span {
+   position: relative;
+   font-size: 14px;
+}
+.layerbom a {
+   position: relative;
+   text-align: center;
+   background-color: #fff;
+   color: #000;
+   margin-bottom: 18px;
+   height: 54px;
+}
+.buy a {
+   background-color: #232323FF;
+   color: #fff;
+    height: 54px;
+}
+a i {
+   font-size: 22px;
 }
