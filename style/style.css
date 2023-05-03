@@ -341,8 +341,8 @@ a i {
    width: 1045px;
    height: 600px;
    position: relative;
-   background-image: url("../imgs/architecture-img-21.jpg.webp");
-   background-size: 100% 100%;
+   background-image: url("https://litho.themezaa.com/wp-content/uploads/2020/06/architecture-img-14.jpg");
+   background-size: cover;
    background-repeat: no-repeat;
    opacity: .8;
 }
@@ -439,7 +439,7 @@ a i {
    height: 300px;
    margin-bottom: 12px;
    z-index: 10;
-   transition-duration: 1s;
+   transition-duration: .5s;
 }
 .hause-img:hover img {
    transform: translateY(-10px)
@@ -541,4 +541,114 @@ a i {
    left: -90px;
    width: 404px;
    height: 228px;
+}
+
+
+/* time-img */
+#data-time {
+   padding: 10px 0;
+}
+
+.data-time-content {
+   column-gap: 27px;
+}
+.time-content {
+   position: relative;
+   width: 245px;
+   height: 260px;
+   overflow: hidden;
+}
+.time-content img {
+   width: 245px;
+   height: 260px;
+   opacity: 0.6;
+   transition-duration: 2s;
+}
+.time-content:hover img {
+   transform: scale(1.1);
+   opacity: 0.3;
+}
+.time-content:hover .time-info a {
+   background-color: #fff;
+   color: #000;
+}
+.time-info {
+   position: absolute;
+   left: 50px;
+   bottom: 0;
+}
+.time-info h3 {
+   width: 130px;
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 33px;
+   color: #fff;
+}
+.time-info p {
+   font-size: 13px;
+   font-weight: 500;
+   line-height: 22px;
+   color: rgba(255, 255,255,0.6);
+   margin-bottom: 10px;
+}
+.time-info a {
+   padding: 5px 13px;
+   font-size: 12px;
+   font-weight: 600;
+   line-height: 22px;
+   border-radius: 2px;
+   background-color: rgba(23, 23, 23, .75);
+   color: #fff;
+   transition-duration: 1s;
+}
+
+
+
+.seperate-content {
+   text-align: center;
+   padding: 100px 0;
+   border-bottom: 1px solid #fff;
+}
+.seperate-content h1 {
+   font-size: 25px;
+   font-weight: 600;
+   color: #fff;
+}
+.seperate-content a {
+   font-size: 25px;
+   font-weight: 600;
+   color: #cee002;
+   border-bottom: 0.3px solid #cee002;
+}
+
+
+/* footer */
+#footer {
+   padding: 50px 0;
+}
+
+.footer-content img {
+   width: 111px;
+   height: 36px;
+}
+.footer-info a {
+   transition-duration: .5s;
+}
+.footer-info p {
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 25px;
+   color: #828282;
+}
+.footer-info a:hover {
+   color: #cee002;
+}
+.logo-item a {
+   margin-left: 18px;
+   font-size: 10px;
+   color: #fff;
+   transition-duration: .5s;
+}
+.logo-item a:hover {
+   color: #828282;
 }
